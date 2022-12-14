@@ -1,2 +1,6 @@
-Tool Name, Tool Location, Tool Description
-Radiator Service, Tool Rack (Shelf 2), Used to Service Radiators.
+Radiator Service Tool, Tool Rack (Shelf 2), Used To Service Radiators.
+Brake Service Tool, Tool Rack (Shelf 3), Used To Service Brakes.
+AirBag Service Tool, Tool Rack (Shelf 1), Used to Service AirBags.
+Key Service Tool, Tool Rack (Shelf 4), Used to Service Keys.
+HVAC Machine, Middle Room (Corner), Used to Service HVAC.
+Electric Service Tool, Tool Rack (Shelf 4), Used to Service Electrical Parts
