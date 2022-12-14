@@ -58,12 +58,12 @@ public class IYAutoTech extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         background2 = new javax.swing.JLabel();
+        buttonGroup1 = new javax.swing.ButtonGroup();
         descDialog = new javax.swing.JDialog();
         titleLabel3 = new javax.swing.JLabel();
         jScrollPane5 = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
         background3 = new javax.swing.JLabel();
-        buttonGroup1 = new javax.swing.ButtonGroup();
         invenFrame = new javax.swing.JFrame();
         titleLabel5 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
@@ -81,8 +81,8 @@ public class IYAutoTech extends javax.swing.JFrame {
         websiteButton = new javax.swing.JButton();
         nameLabel4 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox<>();
-        background = new javax.swing.JLabel();
         logoLabel = new javax.swing.JLabel();
+        background = new javax.swing.JLabel();
 
         recordFrame.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         recordFrame.setTitle("Record Jobs");
@@ -507,7 +507,7 @@ public class IYAutoTech extends javax.swing.JFrame {
         nameLabel4.setOpaque(true);
         nameLabel4.setPreferredSize(new java.awt.Dimension(146, 32));
         getContentPane().add(nameLabel4);
-        nameLabel4.setBounds(440, 390, 130, 30);
+        nameLabel4.setBounds(440, 410, 130, 30);
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Boss", "Manager", "Worker 1", "Worker 2", "Worker 3" }));
         jComboBox1.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(204, 204, 204)));
@@ -517,18 +517,18 @@ public class IYAutoTech extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jComboBox1);
-        jComboBox1.setBounds(570, 390, 83, 30);
+        jComboBox1.setBounds(570, 410, 83, 30);
+
+        logoLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        logoLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assestsPackage/Logo I&Y Auto Tech.png"))); // NOI18N
+        logoLabel.setText("jLabel1");
+        getContentPane().add(logoLabel);
+        logoLabel.setBounds(60, 340, 175, 125);
 
         background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assestsPackage/gradient.png"))); // NOI18N
         background.setText("background");
         getContentPane().add(background);
         background.setBounds(-3, -4, 700, 510);
-
-        logoLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        logoLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assestsPackage/Logo I& Y Auto Tech.png"))); // NOI18N
-        logoLabel.setText("jLabel1");
-        getContentPane().add(logoLabel);
-        logoLabel.setBounds(30, 350, 100, 90);
 
         pack();
         setLocationRelativeTo(null);
